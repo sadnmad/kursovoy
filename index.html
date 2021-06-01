@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar navbar navbar-light">
+            <div class="container-xxl">
+              <a class="navbar-brand" href="#">Yablochki</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Part1">Top Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Part2">Iphone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Part3">IMac</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Part4">MacBook</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Part5">Ipad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Part7">Apple Watch</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Part6">Accessories</a>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                  <button class="btn btn-outline-success" type="submit" data-bs-toggle="modal" data-bs-target="#examleModal">Sign in</button>
+                  <button class="btn btn-outline-danger mx-3" type="submit">Sign out</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!--Modal--->
+          <div class="modal fade" id="examleModal" tabindex="-1" aria-labelledby="examleModalable" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary" data-dismiss>Close</button>
+                      <button class="btn btn-secondary">Save</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Modal--->
+    </header>
+    <main>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Iphone.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Mac.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Iphone(3).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+      <div class="container text-center mt-5">
+        <div class="section-title">
+          <h2 id="Part1" class="h22">Top Sale</h2>
+      <div class="container">
+        <div class="row row-cols-4">
+          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/b/l/black_iphone-12-for-site_1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iPhone 12 Black 128GB</h5>
+              <p class="card-text">Price: 25 615 ₴</p>
+              <a href="https://yabloki.ua/rus/iphone-12-black-128gb.html" class="btn btn-dark">Buy</a>
+            </div>
+          </div>
+        </div>
+          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/m/w/mwp22_av2-compressor.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AirPods Pro</h5>
+              <p class="card-text">Price: 6 199 ₴</p>
+              <a href="https://yabloki.ua/rus/airpods-pro.html" class="btn btn-dark">Buy</a>
+            </div>
+          </div>
+        </div>
+          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/i/silver_ipadair-2020_wi-fi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iPad Air Silver 64GB</h5>
+              <p class="card-text">Price: 17 999 ₴</p>
+              <a href="https://yabloki.ua/rus/ipad-air-silver-64gb-wifi-2020.html" class="btn btn-dark">Buy</a>
+            </div>
+          </div></div>
+          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/b/l/blue_iphone-12-for-site_1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iPhone 12 Blue</h5>
+              <p class="card-text">Price: 25 615 ₴</p>
+              <a href="https://yabloki.ua/rus/iphone-12-blue-128gb.html" class="btn btn-dark">Buy</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+        <section>
+          <div class="container text-center mt-5">
+            <div class="section-title">
+              <h2 id="Part2" class="h22">Iphone</h2>
+              <div class="container">
+                <div class="row row-cols-4">
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/b/l/black_iphone-12-mini-for-site.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 12 mini Black</h5>
+                      <p class="card-text">Price: 20 896 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-12-mini-black-64gb.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/p/u/purple_iphone-12-for-site_2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 12 Purple</h5>
+                      <p class="card-text">Price: 33 899 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-12-purple-256gb.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/g/sg_iphone-12-pro-for-site_2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 12 Pro Graphite</h5>
+                      <p class="card-text">Price: 29 948 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-12-pro-graphite-128gb.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/g/o/gold_iphone-12-pro-max-for-site.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 12 Pro Max Gold</h5>
+                      <p class="card-text">Price: 32 645 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-12-pro-max-gold-64gb.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="container mt-5">
+                <div class="row row-cols-4">
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/i/silver-compressor_1_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 11 Pro Silver</h5>
+                      <p class="card-text">Price: 24 099 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-11-pro-silver-64gb.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/g/r/green-compressor_7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 11 Green</h5>
+                      <p class="card-text">Price: 18 296 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-11-green-64gb-slim-box.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_black_iphone-se-for-site-compressor_3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone SE Black</h5>
+                      <p class="card-text">Price: 12 499 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-se-64gb-black-slim-box.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000white_1_3_4_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone XR White</h5>
+                      <p class="card-text">Price: 16 099 ₴</p>
+                      <a href="https://yabloki.ua/rus/iphone-xr-64gb-white-slim-box.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+        </section>
+        <section>
+          <div class="container text-center mt-5">
+            <div class="section-title">
+              <h2 id="Part3" class="h22">IMac</h2>
+              <div class="container">
+                <div class="row row-cols-4">
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/i/m/imac-24-silver-selection-hero-202104_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 24 Retina</h5>
+                      <p class="card-text">Coming Soon</p>
+                      <a href="https://yabloki.ua/rus/imac-24-retina-4-5k-m1-8gb-512gb-ssd-with-touch-id-silver-2021.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/i/m/imac-24-orange-selection-hero-202104_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 24 Retina</h5>
+                      <p class="card-text">Coming Soon</p>
+                      <a href="https://yabloki.ua/rus/imac-24-retina-4-5k-m1-8gb-512gb-ssd-with-touch-id-orange-2021.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/i/m/imac-24-yellow-selection-hero-202104_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 24 Retina</h5>
+                      <p class="card-text">Coming Soon</p>
+                      <a href="https://yabloki.ua/rus/imac-24-retina-4-5k-m1-8gb-512gb-ssd-with-touch-id-yellow-2021.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/i/m/imac-24-silver-selection-hero-202104_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 24 Retina</h5>
+                      <p class="card-text">Coming Soon</p>
+                      <a href="https://yabloki.ua/rus/imac-24-retina-4-5k-m1-8gb-512gb-ssd-with-touch-id-silver-2021.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="container mt-5">
+                <div class="row row-cols-4">
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000_1_36.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 21.5 / Retina 4K</h5>
+                      <p class="card-text">Price: 46 399 ₴</p>
+                      <a href="https://yabloki.ua/rus/imac-21-5-retina-4k-mrt32-2019.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/3/c/3c9941e5bfccb5a302855a191435c23b.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 21.5 / Retina 4K</h5>
+                      <p class="card-text">Price: 47 999 ₴</p>
+                      <a href="https://yabloki.ua/rus/imac-21-5-retina-4k-mhk33-2020.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000_1_35.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 21.5 / Retina 4K</h5>
+                      <p class="card-text">Price: 54 899 ₴</p>
+                      <a href="https://yabloki.ua/rus/imac-21-5-retina-4k-mrt42-2019.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                    <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/i/m/imac-27-cto-hero-202008.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iMac 27/Retina 5K</h5>
+                      <p class="card-text">Price: 63 499 ₴</p>
+                      <a href="https://yabloki.ua/rus/imac-24-retina-4-5k-m1-8gb-512gb-ssd-with-touch-id-silver-2021.html" class="btn btn-dark">Buy</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+          </section>
+          <section>
+            <div class="container text-center mt-5">
+              <div class="section-title">
+                <h2 id="Part4" class="h22">MacBook</h2>
+                <div class="container">
+                  <div class="row row-cols-4">
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/p/spacegray-macbookpro-16-compressor_1_2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Apple MacBook Air</h5>
+                        <p class="card-text">Sold Out</p>
+                        <a href="https://yabloki.ua/rus/macbook-pro-16-touch-bar-i9-2-4-ghz-4tb-space-grey-2020-z0xz006x3-z0y0008lg.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/i/silver_macbook_pro_m1_2020_1_5.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Pro 13</h5>
+                        <p class="card-text">Sold Out</p>
+                        <a href="https://yabloki.ua/rus/macbook-pro-13touch-bar-512gb-silver-2020-z0y80003e.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/i/silver_macbook_air_m1_2020_1_2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Air 13 Apple</h5>
+                        <p class="card-text">Sold Out</p>
+                        <a href="https://yabloki.ua/rus/macbook-air-13-apple-m1-chip-1tb-space-grey-2020-z125000y5-mgqn3.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/i/silver_macbook_pro_m1_2020_1_5.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Pro 13</h5>
+                        <p class="card-text">Sold Out</p>
+                        <a href="https://yabloki.ua/rus/macbook-pro-13touch-bar-512gb-silver-2020-z0y80003e.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="container mt-5">
+                  <div class="row row-cols-4">
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000spacegray1_15.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Air 13 Space</h5>
+                        <p class="card-text">Price: 30 099 ₴</p>
+                        <a href="https://yabloki.ua/rus/macbook-air-13-space-gray-128gb-mvfh2-early-2019.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000gold1_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Air 13 Gold</h5>
+                        <p class="card-text">Price: 31 899 ₴</p>
+                        <a href="https://yabloki.ua/rus/macbook-air-13-mree2.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/i/silver_macbook_air_m1_2020_2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Air Apple</h5>
+                        <p class="card-text">Price: 30 719 ₴</p>
+                        <a href="https://yabloki.ua/rus/macbook-air-apple-m1-chip-256gb-silver-mgn93.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                      <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000silver1_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MacBook Air 13 Silver</h5>
+                        <p class="card-text">Price: 32 499 ₴</p>
+                        <a href="https://yabloki.ua/rus/macbook-air-13-mrea2.html" class="btn btn-dark">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+            </section>
+            <section>
+              <div class="container text-center mt-5">
+                <div class="section-title">
+                  <h2 id="Part5" class="h22">iPad</h2>
+                  <div class="container">
+                    <div class="row row-cols-4">
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/p/space_ipad-8-2020_wifi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad 10.2 Space</h5>
+                          <p class="card-text">Price: 10 299 ₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-10-2-space-gray-32gb-wifi-2020.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/s/i/silver_11-inch-ipadpro-2021_4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad Pro 11 Silver</h5>
+                          <p class="card-text">Price: 23 999₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-pro-11-silver-m1-2tb-wifi-2021.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/g/r/green_ipadair-2020_wi-fi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad Air Green</h5>
+                          <p class="card-text">Price: 17 999 ₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-air-green-64gb-wifi-2020.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000spacegray_15.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad Air Space</h5>
+                          <p class="card-text">Price: 17 099 ₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-air-space-gray-256gb-wifi-4g-2020.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="container mt-5">
+                    <div class="row row-cols-4">
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_silver_12-inch-ipadpro-2020-compressor_13.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad Pro 12.9 Silver</h5>
+                          <p class="card-text">Price: 36 999 ₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-pro-12-9-silver-256gb-wifi-4g-2020.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_gray_12-inch-ipadpro-2020-compressor_1__6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad Pro 12.9 Space</h5>
+                          <p class="card-text">Price: 36 999 ₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-pro-12-9-space-gray-256gb-wifi-4g-2020.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_gray_12-inch-ipadpro-2020-compressor_1__1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad Pro 12.9 Space</h5>
+                          <p class="card-text">Price: 38 099 ₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-pro-12-9-space-gray-512gb-wifi-2020.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_silver_12-inch-ipadpro-2020-compressor_2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">iPad Pro 12.9 Silver</h5>
+                          <p class="card-text">Price: 38 499 ₴</p>
+                          <a href="https://yabloki.ua/rus/ipad-pro-12-9-silver-512gb-wifi-2020.html" class="btn btn-dark">Buy</a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+              </section>
+              <section>
+                <div class="accordion accordion-flush mt-5 text-center" id="accordionFlushExample">
+                  <h2 id="Part7" class="h22">Apple Watch</h2>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <div class="container text-center">
+                          <div class="row row-cols-4">
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtp62_vw_34fr_watch-40-alum-spacegray-nc-se_vw_34fr_wf_co.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Apple Watch SE 40</h5>
+                                <p class="card-text">Price: 9 051 ₴</p>
+                                <a href="https://yabloki.ua/rus/apple-watch-se-40-mm-space-gray-aluminum-case-sport-band-black.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtp72_vw_34fr_watch-40-alum-gold-nc-se_vw_34fr_wf_co.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Apple Watch SE 40</h5>
+                                <p class="card-text">Price: 9 051 ₴</p>
+                                <a href="https://yabloki.ua/rus/apple-watch-se-40-mm-gold-aluminum-case-sport-band-pink-sand.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_gold_milanese-loop-aw-s5-2020-compressor.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Apple Watch S5</h5>
+                                <p class="card-text">Price: 30 999 ₴</p>
+                                <a href="https://yabloki.ua/rus/apple-watch-s5-40-mm-gold-stainless-steel-case-with-milanese-loop-gps-lte-mwwv2.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/a/w/aw-s6-2020-__white-gold-with-black-case_1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Apple Watch Series 6</h5>
+                                <p class="card-text">Price: 34 999 ₴</p>
+                                <a href="https://yabloki.ua/rus/apple-watch-series-6-edition-40mm-14-karat-white-gold-with-black-case.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"><div class="container">
+                        <div class="row row-cols-4">
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/m/x/mx8c2_vw_34fr_watch-40-alum-spacegray-nc-nike6s_vw_34fr_wf_co-min_-__1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Apple Watch Nike SE 40</h5>
+                              <p class="card-text">Price: 10 899 ₴</p>
+                              <a href="https://yabloki.ua/rus/apple-watch-nike-se-40-mm-space-gray-aluminum-case-sport-band-anthracite-black.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/m/x/mx8d2_vw_34fr_watch-40-alum-silver-nc-nike6s_vw_34fr_wf_co-min_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Apple Watch Nike SE 40</h5>
+                              <p class="card-text">Price: 10 899 ₴</p>
+                              <a href="https://yabloki.ua/rus/apple-watch-nike-se-40-mm-silver-aluminum-case-sport-band-pure-platinum-black.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_silver_milanese-loop-aw-s5-2020-compressor_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Apple Watch S5 44</h5>
+                              <p class="card-text">Price: 31 199 ₴</p>
+                              <a href="https://yabloki.ua/rus/apple-watch-s5-44-mm-silver-stainless-steel-case-with-milanese-loop-gps-lte-mww32.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_black_milanese-loop-aw-s5-2020-compressor_1_.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Apple Watch S5 44</h5>
+                              <p class="card-text">Price: 31 199 ₴</p>
+                              <a href="https://yabloki.ua/rus/apple-watch-s5-44-mm-space-black-stainless-steel-case-with-milanese-loop-gps-lte-mww82.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+              </section>
+              <section>
+                <div class="accordion accordion-flush mt-5 text-center" id="accordionFlushExample">
+                  <h2 id="Part6" class="h22">Accessories</h2>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <div class="container text-center">
+                          <div class="row row-cols-4">
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_blue_airpods-max-select-for-site.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">AirPods Max Sky Blue</h5>
+                                <p class="card-text">Price: 19 399 ₴</p>
+                                <a href="https://yabloki.ua/rus/airpods-max-sky-blue.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/r/o/rose_airpods-pro-color-1-compressor.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">AirPods Pro Rose</h5>
+                                <p class="card-text">Price: 10 999 ₴</p>
+                                <a href="https://yabloki.ua/rus/airpods-pro-rose.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/m/w/mwp22_av2-compressor.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">AirPods Pro MWP22</h5>
+                                <p class="card-text">Price: 6 199 ₴</p>
+                                <a href="#" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_black_airpods-max-select-for-site.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">AirPods Max Space Grey</h5>
+                                <p class="card-text">Price: 17 499 ₴</p>
+                                <a href="https://yabloki.ua/rus/airpods-max-space-grey.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"><div class="container">
+                        <div class="row row-cols-4">
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/d/e/deepnavy_2_apple-copy-iphone-12-pro-max_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Silicone Case for Iphone</h5>
+                              <p class="card-text">Price: 2 099 ₴</p>
+                              <a href="https://yabloki.ua/rus/chehol-dlja-iphone-12-12-pro-silicone-case-with-magsafe-deep-navy-mhl43.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/2/1200blue_12_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">AirPods Blue Straps</h5>
+                              <p class="card-text">Price: 239 ₴</p>
+                              <a href="https://yabloki.ua/rus/airpods-silicone-case-straps-blue.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/b/l/blue_mutural-for-10-inch-1_1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">iPad Case Dark Blue</h5>
+                              <p class="card-text">Price: 999 ₴</p>
+                              <a href="https://yabloki.ua/rus/chehol-mutural-case-dlja-ipad-10-2-2020-dark-blue.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                            <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/p/r/productimages_huex_mbp13_2016_bk01_9cee83c5-a7e5-4047-8804-0f4584a1641a_2000x.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Case Laut HUEX</h5>
+                              <p class="card-text">Price: 1 099 ₴</p>
+                              <a href="https://yabloki.ua/rus/chehol-laut-huex-dlja-macbook-pro-13-black-l-13mp20-hx-bk.html" class="btn btn-dark">Buy</a>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><div class="container">
+                          <div class="row row-cols-4">
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_8.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Apple TV 4K 32GB</h5>
+                                <p class="card-text">Price: 6 599 ₴</p>
+                                <a href="https://yabloki.ua/rus/apple-tv-4k-32-gb.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/m/x/mxqu2ll_av2.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Keyboard для iPad Pro</h5>
+                                <p class="card-text">Price: 13 899 ₴</p>
+                                <a href="https://yabloki.ua/rus/klaviatura-apple-magic-keyboard-dlja-ipad-pro-12-9-2020-mxqu2.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/1000_1_30.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Apple Pencil</h5>
+                                <p class="card-text">Price: 3 999 ₴</p>
+                                <a href="https://yabloki.ua/rus/apple-pencil-2-go-pokolenija.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col"><div class="card shadow-sm p-3 mb-5 bg-body rounded " style="width: 18rem;">
+                              <img src="https://yabloki.ua/media/catalog/product/cache/4/image/664x443/602f0fa2c1f0d1ba5e241f914e856ff9/1/2/1200_2__12.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Apple Magic Mouse</h5>
+                                <p class="card-text">Price: 3 899 ₴</p>
+                                <a href="https://yabloki.ua/rus/mrme2.html" class="btn btn-dark">Buy</a>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+              </section>
+              <section class="contact">
+                <div class="container mt-5">
+                  <h2 class="h22">Geolocation</h2>
+                  <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=%D0%94%D0%BD%D0%B5%D0%BF%D1%80,%20%D0%91%D0%BB%D0%B8%D0%B6%D0%BD%D1%8F%D1%8F%2011+(Yablochki)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class="container mt-5 footer-top">
+                  <div class="row row-cols-4">
+                    <div class="col">
+                      <div class="footer-info">
+                      <h4>Yablochki</h4>
+                      <p>Dnipropetrovs'ka oblast, 49000 <br>
+                      Dnipro, UA <br>
+                      <strong>Phone:</strong> +38 (096) 023 83 21 <br>
+                      <strong>Email:</strong> yablochki@gmail.com <br>
+                      </p>
+                    </div>
+                  </div>
+                    <div class="col">
+                      <div class="footer-links">
+                      <h4>Information</h4>
+                      <ul>
+                        <li class="popka py-2"><a href="#">About</a></li>
+                        <li class="popka"><a href="#">Blog</a></li>
+                        <li class="popka"><a href="#">Service</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                    <div class="col"><div class="footer-links">
+                      <h4>Useful links</h4>
+                      <ul>
+                        <li class="popka py-2"><a href="#">Delivery</a></li>
+                        <li class="popka"><a href="#">Payment</a></li>
+                        <li class="popka"><a href="#">Guarantee</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                    <div class="col">
+                      <div class="footer-newsletter">
+                      <h4>Subscribe to news</h4>
+                      <form action="#"></form>
+                      <input type="email"> <input type="submit" value="Subscribe">
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </section>
+ <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>   
+</body>
+</html>
